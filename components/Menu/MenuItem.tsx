@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './MenuItem.css';
 
 interface MenuItemProps {
     title: string,
