@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import MaxWidthWrapper from '../layout/MaxWidthWrapper'
 import Link from 'next/link'
@@ -25,7 +26,7 @@ const Navbar = () => {
 
                                 <div className="ml-4 flex lg:ml-0">
                                     <Link href="/">
-                                        <Image alt='logo' height="32"
+                                        <img alt='logo' height="32"
                                             width="130"
                                             className=" bg-transparent object-cover" src='/Assets/jun.png' />
                                     </Link>
