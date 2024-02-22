@@ -2,10 +2,9 @@
 import React from 'react'
 import MaxWidthWrapper from '../layout/MaxWidthWrapper'
 import Link from 'next/link'
-import { Icons } from '../layout/Icons'
-import NavItem from './Navitem'
+
 import NavItems from './NavItems'
-import Image from 'next/image'
+
 import { buttonVariants } from '../ui/button'
 import MobileNav from './MobileNav'
 //import { buttonVariants } from '../ui/button';
@@ -28,7 +27,7 @@ const Navbar = () => {
                                     <Link href="/">
                                         <img alt='logo' height="32"
                                             width="130"
-                                            className=" bg-transparent object-cover" src='/Assets/jun.png' />
+                                            className="  object-cover" src='/Assets/jun.png' />
                                     </Link>
                                 </div>
                                 <div className="hidden z-50 lg:ml-8 lg:block lg:self-stretch">
