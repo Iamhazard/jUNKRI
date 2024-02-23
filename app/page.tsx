@@ -11,6 +11,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { ArrowDownToLine, CheckCircle, Image, Leaf } from "lucide-react";
 import Link from "next/link";
 
+
 const perks = [
   {
     name: "Instant Delivery",
@@ -76,8 +77,9 @@ export default function Home() {
       <div>
         <Intro />
       </div>
-      <Gallery />
-
+      <div>
+        <Gallery />
+      </div>
 
 
 

@@ -42,6 +42,13 @@ video {
   z-index: -1;
   transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
+.app__bg {
+  background: url('/Assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 
 .heading {
   font-size: 16rem;
