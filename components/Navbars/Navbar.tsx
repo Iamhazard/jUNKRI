@@ -14,9 +14,9 @@ const Navbar = () => {
 
     const user = null
     return (
-        <div className="border-b border-gray-300 mb-3 sticky top-0 bg-white z-50">
+        <div className="border-b border-gray-900 sticky top-0 z-50">
             <div className="max-w-[1400px] mx-auto">
-                <header className="relative bg-white">
+                <header className="relative bg-gray-900">
                     <MaxWidthWrapper>
                         <div className="">
                             <div className="flex h-20 items-center">

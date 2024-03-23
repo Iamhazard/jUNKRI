@@ -75,10 +75,10 @@ export default function Home() {
   }
   return (
     <>
-      <MaxWidthWrapper className="pb-6 h-auto">
-        <video autoPlay loop muted>
+      <MaxWidthWrapper className="pb-6 h-auto bg-gray-800">
+        {/* <video autoPlay loop muted>
           <source src="/Assets/BG BY CWS.mp4" type="video/mp4" />
-        </video>
+        </video> */}
 
         <div className="app__wrapper " id="home">
           <div className="app__wrapper_info ">
@@ -158,9 +158,7 @@ export default function Home() {
         <SpecialMenu />
       </div>
 
-      <div>
-        <Chef />
-      </div>
+
       <div>
         <Intro />
       </div>

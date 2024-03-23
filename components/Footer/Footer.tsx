@@ -59,7 +59,7 @@ const Footer = () => {
                     <div className='text-center md:text-left'>
                         <p className='gap-2 flex text-sm text-muted-foreground justify-center'>
                             &copy; {new Date().getFullYear()} All Rights
-                            Reserved <Link href={'https://github.com/Iamhazard'}>Hazard</Link>
+                            Reserved <Link href={'https://github.com/Iamhazard'}>Junकिri</Link>
                         </p>
                     </div>
 

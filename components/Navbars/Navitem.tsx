@@ -17,6 +17,8 @@ interface NavItemProps {
     close: () => void;
     isOpen: boolean;
     isAnyOpen: boolean;
+
+
 }
 
 const NavItem = ({
@@ -30,9 +32,9 @@ const NavItem = ({
         <div className="flex">
             <div className="relative flex items-center">
                 <Button
-                    className="gap-1.5"
+                    className="gap-1.5 text-white"
                     onClick={handleOpen}
-                    variant={isOpen ? "secondary" : "ghost"}>
+                    variant={isOpen ? "default" : "ghost"}>
                     {category.label}
                     <ChevronDown
                         className={cn("h-4 w-4 transition-all text-muted-foreground", {
@@ -65,14 +67,18 @@ const NavItem = ({
                                             onClick={() => close}
                                             key={item.name}
                                             className="  text-base sm:text-sm">
-                                            {/* <div className="relative aspect-video overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
-                                                <Image
-                                                    src={item.imageSrc}
-                                                    alt="product category image"
-                                                    fill
-                                                    className="object-cover object-center"
-                                                />
-                                            </div> */}
+                                            <div className="relative aspect-video overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+                                                {item.imageSrc ? (
+                                                    <Image
+                                                        src={item.imageSrc}
+                                                        alt="product category image"
+                                                        fill
+                                                        className="object-cover object-center"
+                                                    />
+                                                ) : (
+                                                    <div>No image available</div>
+                                                )}
+                                            </div>
 
                                             <Link
                                                 href={item.href}
