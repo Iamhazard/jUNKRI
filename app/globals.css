@@ -4,6 +4,25 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+html,
+body,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+  pointer-events: none;
+}
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;

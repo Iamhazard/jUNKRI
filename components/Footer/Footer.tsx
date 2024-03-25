@@ -4,6 +4,7 @@
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import MaxWidthWrapper from '../layout/MaxWidthWrapper'
+import MyMap from '../Googlemaps/request'
 
 const Footer = () => {
     const pathname = usePathname()
@@ -39,7 +40,8 @@ const Footer = () => {
                                 <h3 className='font-semibold text-white'>
                                     Visit out Resturnat
                                 </h3>
-                                {/* <p className='mt-2 text-sm text-muted-foreground'>
+                                <MyMap></MyMap>
+                                <p className='mt-2 text-sm text-muted-foreground'>
                                     If you&apos;d like to sell high-quality
                                     digital products, you can do so in
                                     minutes.{' '}
@@ -48,7 +50,7 @@ const Footer = () => {
                                         className='whitespace-nowrap font-medium text-Whie hover:text-blue-900'>
                                         Get started &rarr;
                                     </Link>
-                                </p> */}
+                                </p>
                             </div>
                         </div>
                     </div>

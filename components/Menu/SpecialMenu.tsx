@@ -5,14 +5,14 @@ import './SpecialMenu.css';
 import SubHeading from '../Navbars/SubHeading';
 import { Special, wines } from '../config/data';
 import MenuItem from './MenuItem';
-import { formatPrice } from '@/lib/utils';
+//import { formatPrice } from '@/lib/utils';
 
 
 const SpecialMenu = () => {
 
 
     return (
-        <div className="app__specialMenu flex__center section__padding" id="menu">
+        <div className="app__specialMenu flex__center  px-4" id="menu">
             <div className="app__specialMenu-title">
                 <SubHeading title="Menu that fits your palatte" />
                 <h1 className="headtext__cormorant">Today&apos;s Special</h1>

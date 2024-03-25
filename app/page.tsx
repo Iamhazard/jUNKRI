@@ -20,7 +20,6 @@ import {
 } from "@/components/ui/accordion"
 import { useState } from "react";
 import axios from "axios";
-import { error } from "console";
 import TypingAnimation from "@/components/TypingAnimation";
 //import { error } from "console";
 
@@ -74,11 +73,8 @@ export default function Home() {
 
   }
   return (
-    <>
-      <MaxWidthWrapper className="pb-6 h-auto bg-gray-800">
-        {/* <video autoPlay loop muted>
-          <source src="/Assets/BG BY CWS.mp4" type="video/mp4" />
-        </video> */}
+    <main className="relative flex flex-col min-h-screen">
+      <div className=" px-2.5 md:px-20 mx-auto pb-6 h-auto bg-gray-800">
 
         <div className="app__wrapper " id="home">
           <div className="app__wrapper_info ">
@@ -150,14 +146,13 @@ export default function Home() {
           </div>
 
         </div>
+      </div>
+      {/* product */}
 
-        {/* product */}
-      </MaxWidthWrapper>
 
       <div>
         <SpecialMenu />
       </div>
-
 
       <div>
         <Intro />
@@ -168,6 +163,6 @@ export default function Home() {
 
 
 
-    </>
+    </main>
   );
 }

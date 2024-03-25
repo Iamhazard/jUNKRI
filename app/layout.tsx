@@ -29,8 +29,10 @@ export default function RootLayout({
         <main className="relative flex flex-col min-h-screen">
 
           <Navbar />
+          <div>
+            {children}
+          </div>
 
-          {children}
 
 
           <Footer />
