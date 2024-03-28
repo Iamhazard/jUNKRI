@@ -79,11 +79,9 @@ export default function Home() {
         <div className="app__wrapper " id="home">
           <div className="app__wrapper_info ">
             <SubHeading title="Chase the new flavour" />
-            <h1 className="app__header-h1">The Key To Fine Dining</h1>
+            <h1 className="app__header-h1">Peace in between tree’s</h1>
             <p className="text-[#DCCA87]" style={{ margin: "2rem 0" }}>
-              Sit tellus lobortis sed senectus vivamus molestie. Condimentum
-              volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-              aliquam amet tellus{" "}
+              Welcome to Junकिri , your premier destination for an unforgettable dining experience in the heart of Titotama.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6 ">
               <Link className={buttonVariants()} href="/products">
@@ -142,7 +140,7 @@ export default function Home() {
           </div>
 
           <div className="app__wrapper_img">
-            <img src="/Assets/welcome.png" alt="" />
+            <img src="/Assets/bg.jpg" alt="" />
           </div>
 
         </div>

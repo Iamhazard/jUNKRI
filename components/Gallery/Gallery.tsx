@@ -27,8 +27,38 @@ const Gallery = () => {
             <div className="app__gallery-content">
                 <SubHeading title="Instagram" />
                 <h1 className="headtext__cormorant">Photo Gallery</h1>
-                <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-                <button type="button" className="custom__button">View More</button>
+
+                <div className='mt-10'>
+                    <h1 className="text-white font-medium pb-5">OPENING HOURS</h1>
+                    <div className="flex flex-col gap-3 text-white">
+                        <div className="flex items-center gap-x-5">
+                            <h1 className="text-white text-sm">Sunday</h1>:
+                            <h1 className="text-white text-sm">10 Am to 10 Pm</h1>
+                        </div>
+                        <div className="flex items-center gap-x-5">
+                            <h1 className="text-white text-sm">Monday</h1>:
+                            <h1 className="text-white text-sm">10 Am to 10 Pm</h1>
+                        </div>
+                        <div className="flex items-center gap-x-5">
+                            <h1 className="text-white text-sm">Tuesday</h1>:
+                            <h1 className="text-white text-sm">10 Am to 10 Pm</h1>
+                        </div>
+                        <div className="flex items-center gap-x-5">
+                            <h1 className="text-white text-sm">Wednesday</h1>:
+                            <h1 className="text-white text-sm">10 Am to 10 Pm</h1>
+                        </div>
+                        <div className="flex items-center gap-x-5">
+                            <h1 className="text-white text-sm">Thursday</h1>:
+                            <h1 className="text-white text-sm">10 Am to 10 Pm</h1>
+                        </div>
+                        <div className="flex items-center gap-x-5">
+                            <h1 className="text-white text-sm">Friday</h1>:
+                            <h1 className="text-white text-sm">10 Am to 10 Pm</h1>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
             <div className="app__gallery-images">
                 <div className="app__gallery-images_container" ref={scrollRef}>

@@ -42,9 +42,7 @@ const Footer = () => {
                                 </h3>
                                 <MyMap></MyMap>
                                 <p className='mt-2 text-sm text-muted-foreground'>
-                                    If you&apos;d like to sell high-quality
-                                    digital products, you can do so in
-                                    minutes.{' '}
+                                    If you&apos;d like to taste somethings goods, you can Visit out Resturant.{' '}
                                     <Link
                                         href='/sign-in?as=seller'
                                         className='whitespace-nowrap font-medium text-Whie hover:text-blue-900'>

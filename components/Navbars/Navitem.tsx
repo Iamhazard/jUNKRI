@@ -31,6 +31,7 @@ const NavItem = ({
     return (
         <div className="flex">
             <div className="relative flex items-center">
+
                 <Button
                     className="gap-1.5 text-white"
                     onClick={handleOpen}
@@ -86,7 +87,7 @@ const NavItem = ({
                                                 {item.name}
                                             </Link>
                                             <p className="mt-1" aria-hidden="true">
-                                                Shop now
+                                                See details
                                             </p>
                                         </div>
                                     ))}

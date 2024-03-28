@@ -16,17 +16,17 @@ export const PRODUCT_CATEGORIES:CategoryItem[] = [
       {
         name: "Fire And Ice Pizzeria",
         href: `/products?category=ui_kits`,
-         imageSrc: "/nav/ui-kits/mixed.jpg",
+         imageSrc: "/nav/juice.jpg",
       },
       {
-        name: "New Arrivals",
+        name: "Hard drinks",
         href: "/products?category=ui_kits&sort=desc",
-        imageSrc: "/nav/ui-kits/blue.jpg",
+        imageSrc: "/nav/vodks.jpg",
       },
       {
-        name: "Bestsellers",
+        name: "Soft Drinks",
         href: "/products?category=ui_kits",
-        imageSrc: "/nav/ui-kits/purple.jpg",
+        imageSrc: "/nav/juice.jpg"
       },
     ],
   },
@@ -35,19 +35,40 @@ export const PRODUCT_CATEGORIES:CategoryItem[] = [
     value: "icons" as const,
     featured: [
       {
-        name: "Favorite Icon Picks",
+        name: "Momos",
         href: `/products?category=icons`,
-        // imageSrc: "/nav/icons/picks.jpg",
+        imageSrc: "/nav/momos.jpeg",
+      },
+      {
+        name: "Fruits Recipe",
+        href: "/products?category=icons&sort=desc",
+        imageSrc: "/nav/veg.jpg",
+      },
+      {
+        name: "Fish Items",
+        href: "/products?category=icons",
+        imageSrc: "/Assets/welcome.png",
+      },
+    ],
+  },
+   {
+    label: "Gallery",
+    value: "gallery" as const,
+    featured: [
+      {
+        name: "Fire And Ice Pizzeria",
+        href: `/products?category=ui_kits`,
+         //imageSrc: "/nav/ui-kits/mixed.jpg",
       },
       {
         name: "New Arrivals",
-        href: "/products?category=icons&sort=desc",
-        // imageSrc: "/nav/icons/new.jpg",
+        href: "/products?category=ui_kits&sort=desc",
+        //imageSrc: "/nav/ui-kits/blue.jpg",
       },
       {
-        name: "Bestselling Icons",
-        href: "/products?category=icons",
-        // imageSrc: "/nav/icons/bestsellers.jpg",
+        name: "Bestsellers",
+        href: "/products?category=ui_kits",
+        //imageSrc: "/nav/ui-kits/purple.jpg",
       },
     ],
   },
