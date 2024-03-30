@@ -58,17 +58,17 @@ export const PRODUCT_CATEGORIES:CategoryItem[] = [
       {
         name: "Fire And Ice Pizzeria",
         href: `/products?category=ui_kits`,
-         //imageSrc: "/nav/ui-kits/mixed.jpg",
+         imageSrc: "/Assets/welcome.png",
       },
       {
         name: "New Arrivals",
         href: "/products?category=ui_kits&sort=desc",
-        //imageSrc: "/nav/ui-kits/blue.jpg",
+        imageSrc: "/Assets/welcome.png",
       },
       {
         name: "Bestsellers",
         href: "/products?category=ui_kits",
-        //imageSrc: "/nav/ui-kits/purple.jpg",
+        imageSrc: "/Assets/welcome.png",
       },
     ],
   },
