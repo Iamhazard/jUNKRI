@@ -73,8 +73,9 @@ export default function Home() {
 
   }
   return (
+
     <main className="relative flex flex-col min-h-screen">
-      <div className=" px-2.5 md:px-20 mx-auto pb-6 h-auto bg-gray-800">
+      <div className=" px-2.5 md:px-20 pb-6 h-auto bg-gray-800">
 
         <div className="app__wrapper " id="home">
           <div className="app__wrapper_info ">
@@ -138,9 +139,8 @@ export default function Home() {
 
             </div>
           </div>
-
           <div className="app__wrapper_img">
-            <img src="/Assets/bg.jpg" alt="" />
+            <img src="/nav/bg.jpg" alt="images" />
           </div>
 
         </div>
