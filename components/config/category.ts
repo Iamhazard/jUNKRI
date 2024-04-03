@@ -1,5 +1,6 @@
 interface CategoryItem {
   label: string;
+  href:string;
   value: string;
   featured: {
     name: string;
@@ -11,6 +12,7 @@ interface CategoryItem {
 export const PRODUCT_CATEGORIES:CategoryItem[] = [
   {
     label: "Home",
+      href: `/products?category=ui_kits`,
     value: "home" as const,
     featured: [
       {
@@ -32,6 +34,7 @@ export const PRODUCT_CATEGORIES:CategoryItem[] = [
   },
   {
     label: "Our Menus",
+      href: `/products?category=ui_kits`,
     value: "icons" as const,
     featured: [
       {
@@ -53,6 +56,7 @@ export const PRODUCT_CATEGORIES:CategoryItem[] = [
   },
    {
     label: "Gallery",
+      href: `/products?category=ui_kits`,
     value: "gallery" as const,
     featured: [
       {

@@ -152,12 +152,12 @@ export default function Home() {
         <SpecialMenu />
       </div>
 
-      <div>
+      {/* <div>
         <Intro />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <Gallery />
-      </div>
+      </div> */}
 
 
 
